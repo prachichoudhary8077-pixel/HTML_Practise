@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Registation Form</title>
+</head>
+<body>
+    <form>
+        <h1>University Registation Form</h1>
+        <p>Please fill out the form below to register</p>
+
+        <hr>
+
+        <h2>Personal Details</h2>
+
+        <lable for="firstname">First Name:</lable>
+        <input type="text" name="username" id="firstname" placeholder="e.g: Arjun" required>
+        <br><br>
+
+        <lable for="surname">Last Name:</lable>
+        <input type="text" name="username" id="surname" placeholder="e.g: Singh" required>
+        <br><br>
+
+        <lable for="D.O.B">Date Of Birth:</lable>
+        <input type="date" name="userD.O.B" id="D.O.B" required>
+        <br><br>
+
+        <lable>Gender:</lable>
+        <br>
+        <input type="radio" name="male" id="male">
+        <lable for="male">Male</lable>
+        <br>
+        <input type="radio" name="female" id="female">
+        <lable for="female">female</lable>
+        <br>
+        <input type="radio" name="other" id="other">
+        <lable for="other">Other</lable>
+        <br><br>
+
+        <lable>Upload Your Photo:</lable>
+        <br>
+        <input type="file" name="file" required>
+        <br><br>
+
+        <hr>
+
+        <h2>Contact Information</h2>
+        <lable for="email address">Email Address:</lable>
+        <input type="email" name="user email" id="email address" placeholder="e.g: hello@.gmail.com" required>
+        <br><br>
+        <lable for="phone number">Phone Number:</lable>
+        <input type="tel" name="user number" id="phone number" placeholder="e.g: 5680261936" required>
+        <br><br>
+        <lable for="mailing address">Mailing Address:</lable> 
+        <br>
+        <textarea name="user address" id="mailing address" row="30" cols="30" placeholder="e.g: city, street, house no."></textarea>
+        <br><br>
+
+        <hr>
+
+        <h2>Academic Information</h2>
+        <lable for="course">Select Your Course:</lable>
+        <select name="course" id="course" required>
+            <option value="CSE CORE">CSE CORE</option>
+            <option value="CSE-DS">CSE-DS</option>
+            <option value="CSE-AIML">CSE-AIML</option>
+            <option value="CSE-EC">CSE-EC</option>
+            <option value="IT">IT</option>
+            <option value="CSE-ME">CSE-ME</option>
+        </select>
+        <br><br>
+        <lable>Extracurricular Interests:</lable>
+        <br>
+        <input type="checkbox" name="user intrest" id="sports" value="sports">
+        <lable for="sports">Sports</lable>
+        <br>
+        <input type="checkbox" name="user intrest" id="Music & arts" value="Music & Arts">
+        <lable for="Music & Arts">Music & Arts</lable>
+        <br>
+        <input type="checkbox" name="user intrest" id="Technology clubs" value="Technology clubs">
+        <lable for="Technology clubs">Technology clubs</lable>
+        <br>
+        <input type="checkbox" name="user intrest" id="Volunteering" value="Volunteering">
+        <lable for="Volunteering">Volunteering</lable>
+
+        <hr>
+
+        <h2>Create Your Account</h2>
+        <lable for="create password">Create Password:</lable>
+        <input type="password" name=" user password" id="create password" required>
+        <br><br>
+        <lable for="security question">Security Question:</lable>
+        <select name="Security question" id="question">
+            <option value="what was your first pet's name?">what was your first pet's name?</option>
+            <option value="what was your nick name?">what was your nick name?</option>
+            <option value="what was your favourite teacher name?">what was your favourite teacher name?</option>
+            <option value="what was your best frnd name?">what was your best frnd name?</option>
+        </select>
+        <br><br>
+        <lable for="security answer">Security Answer:</lable>
+        <input type="text" name="user answer" id="security answer">
+        <br><br>
+        <input type="checkbox" name="agree">
+        <lable>I agree to the terms and conditions.</lable>
+        <br><br>
+
+        <hr>
+
+        <!-- <input type="submit" value="register"> -->
+        <button type="submit">Register</button>
+        <button type="reset">Clear</button>
+
+    </form>
+</body>
+</html>
