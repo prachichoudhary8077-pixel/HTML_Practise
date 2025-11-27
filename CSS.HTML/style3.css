@@ -1,0 +1,17 @@
+/* is mai preference id ki jada hogi order ka basses pa nhi hogi or fir hogi class ki or fir tag (id>class>tag) or agra fir same hai to ordering matter kragi*/
+h1{
+    background-color: cornflowerblue;
+}
+/* #firstId{
+    background-color:darkolivegreen;
+}
+.classA{
+    background-color: darkgreen;
+} */
+h1{
+    background-color:cyan;
+}
+/* important jis ka sath use kranga to usko jada prefrence milagi na ki inline ko ya internal ko ya external ko */
+h2{
+    background-color:darksalmon !important;
+}

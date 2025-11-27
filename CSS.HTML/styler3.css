@@ -1,0 +1,30 @@
+/* *{
+    margin:0px;
+    padding:0px;
+} */
+h2{
+    background-color:dodgerblue;
+    position:relative;
+    left:100px;
+    /* top:50px; */
+    /* right:20px */
+    /* bottom:30px */
+}
+h3{
+    background-color:darkorchid;
+    position:fixed;
+    top: 0px;
+    left:300px;
+}
+h4{
+    background-color:goldenrod;
+    position:sticky;
+    top:0px;
+}
+p{
+    background-color:greenyellow;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    margin: 0px;
+}

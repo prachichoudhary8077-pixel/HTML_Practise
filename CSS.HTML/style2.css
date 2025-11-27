@@ -1,0 +1,35 @@
+h1{
+    background-color:lightskyblue;
+    height:200px;
+    width:300px;
+
+    border-width:10px;
+    border-style:solid;
+    border-radius:50px;
+    border-color:purple;
+    /* border: 10px solid blueviolet; */
+
+    /* padding-> box ka under likh hua mai or border ka 
+    beech mai space decide krna  */
+    padding: 40px;
+
+    /* margin-> kini do content ka beech mai space decide
+    krna -> mtlb h1 and h2 ka beech mai distance decide krna */
+    margin:5px;
+}
+
+h2{
+    background-color:cornflowerblue;
+    border-top:10px;
+    border-style:groove;
+    border-color:blue;
+
+}
+
+p{
+    background-color:aquamarine;
+    padding:5px;
+    border: 5px solid lightseagreen;
+    margin: 5px;
+
+}

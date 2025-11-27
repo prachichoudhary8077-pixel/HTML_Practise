@@ -1,0 +1,59 @@
+/* SELECT ON THE BASES OF TAG ELEMENT SELECTOR */
+/* h1{
+    background-color:cadetblue;
+    font-size:50px;
+
+}
+ul{
+    background-color:burlywood;
+} */
+
+/* SELECT ON THE BASES OF ID SELECTOR */
+/* #first{
+    background-color:cornflowerblue;
+    font-style:italic;
+}
+#second{
+    background-color: darkgreen;
+    font-style:oblique;
+} */
+
+/* SELECT ON THE BASES OF CLASS*/
+/* .third{
+    background-color:darkolivegreen;
+    font-style:oblique;
+}
+.fourth{
+    background-color:darksalmon;
+} */
+
+/* SELECT ON THE BASES OF GROUP */
+/* h1 , .fourth{
+    background-color:blueviolet;
+    font-size: 40px;
+} */
+
+/* SELECT ON THE BASES OD FONT */
+li{
+    /* em-> means-> reference of parent  */
+    font-size:1em;  
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+/* root element -> html hota hai */
+html{ 
+    font-size:20px;
+}
+
+ul{
+    /* rem-> means-> reference of root  */
+    font-size:2rem;
+}
+h1{
+    font-family: "Momo Signature", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    /* motai/dark */
+    font-weight:200;  
+}
